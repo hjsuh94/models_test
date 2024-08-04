@@ -11,7 +11,7 @@
       <geometry>
         <box size=".059 .059 .059"/>
       </geometry>
-      <mesh filename="./meshes/textured_cube.obj">
+      <mesh filename="../meshes/textured_cube.obj">
     </visual>
     <collision name="box">
       <geometry>
