@@ -17,12 +17,13 @@
         <box size=".059 .059 .059"/>
       </geometry>
     </visual>
-    <visual name="xplus">
+    
+    <visual name="zplus">
       <geometry>
-        <box size=".001 .059 .059"/>
+        <box size=".059 .059 .00295"/>
       </geometry>
       <material name="red"/>
-      <origin xyz="0.0595 0 0"/>
+      <origin xyz="0 0 0.0295"/>
     </visual>    
 
     <collision name="box">
