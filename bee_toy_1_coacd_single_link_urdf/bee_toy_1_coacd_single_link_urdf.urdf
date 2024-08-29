@@ -8,7 +8,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="visual_mesh/bee_toy_1_visual.obj" scale="0.1 0.1 0.1"/>
+        <mesh filename="visual_mesh/bee_toy_1_visual.obj" scale="0.2 0.2 0.2"/>
       </geometry>
     </visual>
   </link>
