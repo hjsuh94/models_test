@@ -1,13 +1,17 @@
 <?xml version="1.0"?>
-<robot name="spherical_actuators">
+<robot name="simple_sphere">
 
-  <!-- Model 0 -->
-  <link name="sphere_0">
+  <!-- Define a link named "sphere_link" -->
+  <link name="sphere_link">
+  
+    <!-- Define the inertial properties of the sphere -->
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0.1"/>
-      <inertia ixx="0.004" ixy="0" ixz="0" iyy="0.004" iyz="0" izz="0.004"/>
+      <inertia ixx="2e-5" ixy="0" ixz="0" iyy="2e-5" iyz="0" izz="2e-5"/>
     </inertial>
+
+    <!-- Define the visual properties of the sphere -->
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
@@ -17,11 +21,15 @@
         <color rgba="1 0 1 1"/>
       </material>
     </visual>
+
+    <!-- Define the collision properties of the sphere -->
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
         <sphere radius="0.01"/>
       </geometry>
     </collision>
+    
   </link>
+
 </robot>
